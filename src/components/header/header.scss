@@ -1,0 +1,37 @@
+.header {
+    position: absolute;
+    width: 100%;
+    background-color: #539172;
+    display: flex;
+    height: 70px;
+
+    &__button{
+        display: grid;
+        width: 200px;
+        border-radius: 13px;
+        padding: 5px;
+        margin: 5px;
+        align-self: center;
+
+        &:hover{
+            cursor: pointer;
+            background-color: #97bea8;
+            box-shadow: 2px 2px 5px #36654e;
+
+            span{
+                text-shadow: none;
+            }
+        }
+
+        &__title{
+            font-size: x-large;
+            font-family: 'Helvetica Neue';
+            color: #1e362b;
+        }
+
+        span{
+            color: #1e362b;
+            text-shadow: 1px 1px 1px #36654e;
+        }
+    }
+  }
